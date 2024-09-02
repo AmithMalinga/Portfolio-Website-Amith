@@ -33,7 +33,7 @@ const NavBar = () => {
           {menu === "Contact" ? <img src={underline} alt='Underline' /> : null}
         </li>
       </ul>
-      <div className="nav-connect">Connect With Me</div>
+      <div className="nav-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect With Me</AnchorLink></div>
     </div>
   );
 }
